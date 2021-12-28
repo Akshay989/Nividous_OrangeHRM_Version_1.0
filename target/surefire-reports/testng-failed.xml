@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [OrangeHRM Regression Suite]">
+  <listeners>
+    <listener class-name="com.HRM.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="HRM LoginTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.HRM.testcases.Tc_001_LoginIntoAppWithValidCreds">
+        <methods>
+          <include name="tearDown"/>
+          <include name="set_LoginCredentials"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.HRM.testcases.Tc_001_LoginIntoAppWithValidCreds -->
+    </classes>
+  </test> <!-- HRM LoginTest(failed) -->
+</suite> <!-- Failed suite [OrangeHRM Regression Suite] -->

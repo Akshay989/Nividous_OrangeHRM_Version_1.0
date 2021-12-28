@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OrangeHRM Regression Suite" duration-ms="51546" started-at="2021-12-28T04:21:21Z" finished-at="2021-12-28T04:22:13Z">
+    <groups>
+    </groups>
+    <test name="HRM LoginTest" duration-ms="17254" started-at="2021-12-28T04:21:21Z" finished-at="2021-12-28T04:21:39Z">
+      <class name="com.HRM.testcases.Tc_001_LoginIntoAppWithValidCreds">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.HRM.testcases.Tc_001_LoginIntoAppWithValidCreds@6b2fad11]" name="setup" is-config="true" duration-ms="10077" started-at="2021-12-28T04:21:22Z" finished-at="2021-12-28T04:21:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="set_LoginCredentials()[pri:1, instance:com.HRM.testcases.Tc_001_LoginIntoAppWithValidCreds@6b2fad11]" name="set_LoginCredentials" duration-ms="584" started-at="2021-12-28T04:21:32Z" finished-at="2021-12-28T04:21:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_LoginCredentials -->
+        <test-method status="PASS" signature="click_onLoginButton()[pri:2, instance:com.HRM.testcases.Tc_001_LoginIntoAppWithValidCreds@6b2fad11]" name="click_onLoginButton" duration-ms="4543" started-at="2021-12-28T04:21:33Z" finished-at="2021-12-28T04:21:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_onLoginButton -->
+        <test-method status="PASS" signature="verifyTheTitle_AfterLogin()[pri:3, instance:com.HRM.testcases.Tc_001_LoginIntoAppWithValidCreds@6b2fad11]" name="verifyTheTitle_AfterLogin" duration-ms="50" started-at="2021-12-28T04:21:37Z" finished-at="2021-12-28T04:21:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheTitle_AfterLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.Tc_001_LoginIntoAppWithValidCreds@6b2fad11]" name="tearDown" is-config="true" duration-ms="1508" started-at="2021-12-28T04:21:37Z" finished-at="2021-12-28T04:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.HRM.testcases.Tc_001_LoginIntoAppWithValidCreds -->
+    </test> <!-- HRM LoginTest -->
+    <test name="HRM CreateNewUserAndLoginUsingNewlyCreatedUser" duration-ms="34018" started-at="2021-12-28T04:21:39Z" finished-at="2021-12-28T04:22:13Z">
+      <class name="com.HRM.testcases.Tc_002_CreateNewEmployeeAndLoginWithNewEmployee">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.HRM.testcases.Tc_002_CreateNewEmployeeAndLoginWithNewEmployee@6b143ee9]" name="setup" is-config="true" duration-ms="8321" started-at="2021-12-28T04:21:39Z" finished-at="2021-12-28T04:21:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="set_LoginCredentials()[pri:1, instance:com.HRM.testcases.Tc_002_CreateNewEmployeeAndLoginWithNewEmployee@6b143ee9]" name="set_LoginCredentials" duration-ms="466" started-at="2021-12-28T04:21:47Z" finished-at="2021-12-28T04:21:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set_LoginCredentials -->
+        <test-method status="PASS" signature="click_onLoginButton()[pri:2, instance:com.HRM.testcases.Tc_002_CreateNewEmployeeAndLoginWithNewEmployee@6b143ee9]" name="click_onLoginButton" duration-ms="4998" started-at="2021-12-28T04:21:48Z" finished-at="2021-12-28T04:21:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_onLoginButton -->
+        <test-method status="PASS" signature="creatingNewUser()[pri:3, instance:com.HRM.testcases.Tc_002_CreateNewEmployeeAndLoginWithNewEmployee@6b143ee9]" name="creatingNewUser" duration-ms="9640" started-at="2021-12-28T04:21:53Z" finished-at="2021-12-28T04:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatingNewUser -->
+        <test-method status="PASS" signature="logOutFromHRMApplication()[pri:4, instance:com.HRM.testcases.Tc_002_CreateNewEmployeeAndLoginWithNewEmployee@6b143ee9]" name="logOutFromHRMApplication" duration-ms="6216" started-at="2021-12-28T04:22:02Z" finished-at="2021-12-28T04:22:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutFromHRMApplication -->
+        <test-method status="PASS" signature="loginWithNewlyCreatedUser()[pri:5, instance:com.HRM.testcases.Tc_002_CreateNewEmployeeAndLoginWithNewEmployee@6b143ee9]" name="loginWithNewlyCreatedUser" duration-ms="3224" started-at="2021-12-28T04:22:09Z" finished-at="2021-12-28T04:22:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithNewlyCreatedUser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.HRM.testcases.Tc_002_CreateNewEmployeeAndLoginWithNewEmployee@6b143ee9]" name="tearDown" is-config="true" duration-ms="1127" started-at="2021-12-28T04:22:12Z" finished-at="2021-12-28T04:22:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.HRM.testcases.Tc_002_CreateNewEmployeeAndLoginWithNewEmployee -->
+    </test> <!-- HRM CreateNewUserAndLoginUsingNewlyCreatedUser -->
+  </suite> <!-- OrangeHRM Regression Suite -->
+</testng-results>
